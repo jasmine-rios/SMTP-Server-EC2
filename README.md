@@ -6,6 +6,8 @@ Use this to install a test SMTP server in the AWS console. Information on SMTP p
 
 Ideally for real SMTP don't have these SMTP ports open anywhere but narrow it down with the Networks that it's going to send it with.
 
+The steps to edit the /etc/postfix/main.cf to make Postfix work was based off of (Install Postfix on Centos)[https://netcorecloud.com/tutorials/install-centos-postfix/]
+
 ## Automation Folder
 
 ### SMTP-Test-Install-Terraform
